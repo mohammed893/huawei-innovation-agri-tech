@@ -1,0 +1,19 @@
+{
+    "app": {
+      "name": "",
+      "port": "",
+      "env": "",
+      "jwtSecret": ""
+    },
+    "database": {
+      "host": "",
+      "port": "",
+      "name": "",
+      "user": "",
+      "password": ""
+    },
+    "logging": {
+      "level": "",
+      "file": ""
+    }
+  }

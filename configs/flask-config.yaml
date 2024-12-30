@@ -1,0 +1,16 @@
+app:
+  name:  
+  port: 
+  debug: 
+  secret_key: 
+
+database:
+  host: 
+  port: 
+  name: 
+  user: 
+  password: 
+
+logging:
+  level: 
+  file: 
