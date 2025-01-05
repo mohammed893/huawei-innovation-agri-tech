@@ -1,0 +1,25 @@
+services:
+  Flask_Backend: # The Flask Backend Build
+    build:
+      context: .
+      dockerfile: flask.DockerFile
+    container_name: agriTechFlask
+    ports:
+      - "5000:5000"
+    networks:
+      -
+
+  NodeJS_Backend:
+    build:
+      context: .
+      dockerfile: nodejs.DockerFile
+    container_name: agriTechNode
+    ports:
+      - "4000:4000"
+    volumes:
+      -
+    networks:
+      -
+networks:
+
+volumes:
