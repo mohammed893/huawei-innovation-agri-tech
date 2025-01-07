@@ -7,9 +7,9 @@ services:
     ports:
       - "5000:5000"
     networks:
-      -
+      - agriTechNet
 
-  NodeJS_Backend:
+  NodeJS_Backend: #The Node Backend Build
     build:
       context: .
       dockerfile: nodejs.DockerFile
@@ -17,9 +17,13 @@ services:
     ports:
       - "4000:4000"
     volumes:
-      -
+      - agriTechVol
     networks:
-      -
+      - agriTechNet
 networks:
+  - agriTechNet:
+      name: agriTechNet
 
-volumes:
+volumes: # we have a volume for the database
+  - agriTechVol:
+      name: agriTechVol
