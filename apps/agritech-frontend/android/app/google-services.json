@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "842438505559",
+    "project_id": "flexiscan-92366",
+    "storage_bucket": "flexiscan-92366.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:842438505559:android:6b44b52a01f3d50c7d5f12",
+        "android_client_info": {
+          "package_name": "com.example.agritech"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJsJRBMpqUcLnSFgzQRLX_WnKu40TiY2s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
